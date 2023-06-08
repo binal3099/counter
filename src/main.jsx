@@ -1,0 +1,12 @@
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Cart from './component/Cart/Cart.jsx';
+import './index.css'
+
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <Cart />
+  </React.StrictMode>,
+)
