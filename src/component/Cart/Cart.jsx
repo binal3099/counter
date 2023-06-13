@@ -5,7 +5,7 @@ import laptop1 from '../../../public/laptop1.png'
 import laptop2 from '../../../public/laptop2.png'
 import laptop3 from '../../../public/laptop3.jpg'
 import laptop4 from '../../../public/laptop4.jpg'
-import Counter from '../Counter/Counter';
+import UseRefCounter from '../useRefcounter/UseRef-Counter';
 function Cart() {
     return (
         <Container>
@@ -19,8 +19,8 @@ function Cart() {
                         <Card.Text>
                             Is a battery- or AC-powered personal computer (PC) smaller than a briefcase.
                         </Card.Text>
-                        
-                        <Counter />
+                        <UseRefCounter/>
+                        {/* <Counter /> */}
                     </Card.Body>
                 </Card>
                 <Card>
@@ -31,7 +31,7 @@ function Cart() {
                             Focuses today on sales of personal computers, network servers, data storage solutions, and software.
                         </Card.Text>
                         {/* <h5 style={{marginTop: 10}}>price : 50,000</h5> */}
-                        <Counter />
+                        <UseRefCounter/>
                     </Card.Body>
                 </Card>
                 <Card>
@@ -42,7 +42,8 @@ function Cart() {
                             ASUS is a Taiwan-based, multinational computer hardware and consumer electronics company
                         </Card.Text>
                         {/* <h5 style={{marginTop: 10}}>price : 60,000</h5> */}
-                        <Counter />
+                        {/* <Counter /> */}
+                        <UseRefCounter/>
                     </Card.Body>
                 </Card>
                 <Card>
@@ -53,7 +54,8 @@ function Cart() {
                             The MacBook is a brand of Mac notebook computers designed and marketed by Apple Inc.
                         </Card.Text>
                         {/* <h5 style={{marginTop: 10}}>price : 1,00,000</h5> */}
-                        <Counter />
+                        {/* <Counter /> */}
+                        <UseRefCounter/>
                     </Card.Body>
                 </Card>
                 {/* </Col> */}
